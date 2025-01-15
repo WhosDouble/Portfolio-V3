@@ -1,25 +1,24 @@
 {
   "name": "newportfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This is a Next.js project.",
+  "main": "index.js",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.16.0",
+    "react-star-sky": "^1.0.3",
+    "tailwind-merge": "^2.6.0",
+    "next": "^13.5.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "next": "^13.5.8",
-    "postcss": "^8.5.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.17"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
