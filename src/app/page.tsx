@@ -7,6 +7,8 @@ import ChangeOne from "./components/ChangeOne";
 import ChangeTwo from "./components/ChangeTwo";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
+
+import { Variants } from "framer-motion";
 import "../app/globals.css";
 
 import { useState, useEffect } from "react";
@@ -30,7 +32,7 @@ export default function Home() {
 
   const [cursorVariant, setCursorVariant] = useState("default");
 
-  const variants = {
+  const variants: Variants = {
     default: {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
@@ -48,7 +50,7 @@ export default function Home() {
       y: mousePosition.y - 75,
       backgroundColor: "#FFEB00",
       boxShadow: "0 0 10px rgba(255, 255, 255, 0.8)", // Glow effect
-      mixBlendMode: "difference",
+      mixBlendMode: "multiply",
       clipPath: "circle(50%)",
       transition: {
         type: "smooth",

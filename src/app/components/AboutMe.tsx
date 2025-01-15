@@ -127,7 +127,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className=" w-20 "
             src="https://skillicons.dev/icons?i=react"
           />
@@ -136,7 +136,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className=" w-20 "
             src="https://skillicons.dev/icons?i=svelte"
           />
@@ -145,7 +145,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=tailwindcss"
           />
@@ -154,7 +154,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 20 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=javascript"
           />
@@ -163,7 +163,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=typescript"
           />
@@ -172,7 +172,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=git"
           />
@@ -181,7 +181,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=github"
           />
@@ -190,7 +190,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=html"
           />
@@ -199,7 +199,7 @@ export default function AboutMe(props: any) {
             onMouseLeave={props.leave}
             drag
             dragConstraints={{ top: -5, left: -5, bottom: 5, right: 5 }}
-            dragTransitions={{ bounceDamping: 10, bounceStiffness: 600 }}
+            dragTransition={{ bounceDamping: 10, bounceStiffness: 600 }}
             className="w-20 "
             src="https://skillicons.dev/icons?i=css"
           />
